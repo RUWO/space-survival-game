@@ -12,7 +12,7 @@ public class ShieldGenerator : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        setPowered(false);
+        setPowered(powered);
     }
 
     public void setPowered(bool p)

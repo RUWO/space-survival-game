@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\InventorySystem\Inventory.cs" />
      <Compile Include="Assets\Scripts\InventorySystem\Item.cs" />
      <Compile Include="Assets\Scripts\InventorySystem\Items.cs" />
+     <Compile Include="Assets\Scripts\Machinery\GravityGenerator.cs" />
      <Compile Include="Assets\Scripts\Machinery\ShieldGenerator\Shield.cs" />
      <Compile Include="Assets\Scripts\Machinery\ShieldGenerator\ShieldGenerator.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />

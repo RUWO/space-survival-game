@@ -16,9 +16,18 @@ public class Shield : MonoBehaviour {
 		
 	}
 
+    public float pullForce = 1;
+
     void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Meteor") Destroy(other.gameObject);
+        if (other.name == "Meteor")
+        {
+
+            Vector3 forceDirection = this.transform.position - other.transform.position;
+
+            other.GetComponent<Rigidbody>().AddForce(-forceDirection * pullForce);
+
+        }
     }
 
 }
