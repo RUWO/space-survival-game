@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\Machinery\ShieldGenerator\Shield.cs" />
      <Compile Include="Assets\Scripts\Machinery\ShieldGenerator\ShieldGenerator.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\UI\DevCommands.cs" />
      <Compile Include="Assets\Scripts\UI\PDA.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

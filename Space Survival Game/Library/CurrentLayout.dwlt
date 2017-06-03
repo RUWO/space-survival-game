@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 4509
+  controlID: 9847
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 4510
+  controlID: 9848
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -364,14 +364,14 @@ MonoBehaviour:
     width: 906
     height: 465
   m_SceneLighting: 1
-  lastFramingTime: 389.4167675614669
-  m_2DMode: 0
+  lastFramingTime: 339.12158108362036
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.707054, y: 18.67802, z: 60.180824}
+    m_Target: {x: 58.07679, y: 46.908173, z: 0}
     speed: 2
-    m_Value: {x: 8.707054, y: 18.67802, z: 60.180824}
+    m_Value: {x: 58.07679, y: 46.908173, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -386,25 +386,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: -0.23489226, y: 0.21568033, z: -0.053537894, w: -0.9462777}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.23489228, y: 0.21568033, z: -0.053537898, w: -0.9462777}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.097212
+    m_Target: 218.03154
     speed: 2
-    m_Value: 11.097212
+    m_Value: 218.03154
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -439,9 +439,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: baadffff
-    m_LastClickedID: -21062
-    m_ExpandedIDs: 70fbffffe4fbffff00000000742600005e2700006e270000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 8a72ffff0cbcffffccf8ffffe4fbffff0000000036260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -492,7 +492,8 @@ MonoBehaviour:
     height: 926
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames: []
+    m_ClassNames:
+    - MonoScript
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -500,20 +501,20 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Prefabs/Models/items
+    m_Folders: []
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prefabs/Models/items
+  - Assets/Scripts/UI
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity Workspace\Space Survival Game
+  m_LastProjectPath: C:\Users\JohnyTheCarrot\Documents\GitHub\space-survival-game\Space
+    Survival Game
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da390000
-    m_LastClickedID: 14810
-    m_ExpandedIDs: 00000000c2240000f0240000fc2400001a25000034250000582500008c250000b8250000d4250000f825000000ca9a3bffffff7f
+    m_SelectedIDs: 03ca9a3b
+    m_LastClickedID: 1000000003
+    m_ExpandedIDs: 00000000c2240000f2240000fe240000202500003a2500006025000094250000c0250000e02500000c26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,7 +542,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c2240000f0240000fc2400001a25000034250000582500008c250000b8250000d4250000f825000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000c2240000f2240000fe240000202500003a2500006025000094250000c0250000e02500000c26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
